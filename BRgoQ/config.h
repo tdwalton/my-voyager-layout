@@ -1,7 +1,5 @@
-/*
-  Set any config.h overrides for your specific keymap here.
-  See config.h options at https://docs.qmk.fm/#/config_options?id=the-configh-file
-*/
+#undef TAPPING_TERM
+#define TAPPING_TERM 150
 
 #define PERMISSIVE_HOLD
 
@@ -9,7 +7,7 @@
 #define RGB_MATRIX_TIMEOUT 300000
 
 #define USB_SUSPEND_WAKEUP_DELAY 0
-#define SERIAL_NUMBER "BRgoQ/orrllr"
+#define SERIAL_NUMBER "BRgoQ/nl9qeQ"
 #define LAYER_STATE_8BIT
 #define HCS(report) host_consumer_send(record->event.pressed ? report : 0); return false
 
